@@ -1,0 +1,7 @@
+ahmedabad
+bangalore
+calutta
+delhi
+ellora
+fatehpur
+#lst = ["abc", "bcd"," egh", "ijk"]

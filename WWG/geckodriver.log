@@ -1,0 +1,52 @@
+1665519491641	geckodriver	INFO	Listening on 127.0.0.1:53445
+1665519494696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53446" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofileRBdDzG"
+1665519556540	geckodriver	INFO	Listening on 127.0.0.1:53522
+1665519559632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofilekBIWtG"
+1665519560171	Marionette	INFO	Marionette enabled
+1665519560180	Marionette	INFO	Listening on port 53534
+Read port: 53534
+WebDriver BiDi listening on ws://127.0.0.1:53523
+1665519561681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofilekBIWtG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53523/devtools/browser/9b210342-20c8-4fc4-8d58-362d15aa3e69
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jsapps.ceut0gop3e-theworkwe3-d1-public.model-t.cc.commerce.ondemand.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jsapps.ceut0gop3e-theworkwe3-d1-public.model-t.cc.commerce.ondemand.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jsapps.ceut0gop3e-theworkwe3-d1-public.model-t.cc.commerce.ondemand.com."
+1672856204970	geckodriver	INFO	Listening on 127.0.0.1:54053
+1672856208015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54054" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofile1hTRfz"
+1672856208550	Marionette	INFO	Marionette enabled
+1672856208559	Marionette	INFO	Listening on port 54063
+Read port: 54063
+WebDriver BiDi listening on ws://127.0.0.1:54054
+1672856208741	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofile1hTRfz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54054/devtools/browser/da9090ba-ff97-4f03-95f0-a5a27eefb25c
+1672856237257	Marionette	INFO	Stopped listening on port 54063
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672856245576	geckodriver	INFO	Listening on 127.0.0.1:54134
+1672856248642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofilegtHbOe"
+1672856249128	Marionette	INFO	Marionette enabled
+1672856249135	Marionette	INFO	Listening on port 54144
+Read port: 54144
+WebDriver BiDi listening on ws://127.0.0.1:54135
+1672856249319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofilegtHbOe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54135/devtools/browser/77baf2d6-c5ab-4140-8ed0-d85fedb2c512
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jsapps.ceut0gop3e-theworkwe3-d1-public.model-t.cc.commerce.ondemand.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1672857779754	Marionette	INFO	Stopped listening on port 54144
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "localhost" "-no-remote" "-profile" "C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofilen1jHRG"
+1672856323466	Marionette	INFO	Marionette enabled
+1672856323474	Marionette	INFO	Listening on port 62742
+Read port: 62742
+WebDriver BiDi listening on ws://127.0.0.1:62733
+1672856323671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\KUNALT~1\\AppData\\Local\\Temp\\rust_mozprofilen1jHRG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62733/devtools/browser/bd654b29-2ec4-45c2-8f53-157b54ebfe62
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jsapps.ceut0gop3e-theworkwe3-d1-public.model-t.cc.commerce.ondemand.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jsapps.ceut0gop3e-theworkwe3-d1-public.model-t.cc.commerce.ondemand.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jsapps.ceut0gop3e-theworkwe3-d1-public.model-t.cc.commerce.ondemand.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1672857778299	Marionette	INFO	Stopped listening on port 62742
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

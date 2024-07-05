@@ -1,0 +1,11 @@
+class Locators:
+    sign_in_link_on_home_page = "a[id='nav-link-accountList']"
+    email_id_in_signin= "input[id='ap_email']"
+    continue_button_in_signin = "input[id='continue']"
+    pasword_in_signin = "input[id='ap_password']"
+    sign_in_button_after_entering_email = "input[id='signInSubmit']"
+    submit_code_button = "span[id='cvf-submit-otp-button']"
+    second_continue_button= "input[class='a-button-input notranslate']"
+    search_text_box= "input[id='twotabsearchtextbox']"
+    search_icon = "input[id='nav-search-submit-button']"
+    all_products_price = "span[class='a-price']"

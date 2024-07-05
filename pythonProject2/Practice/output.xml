@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.9.9 on win32)" generated="20211220 01:29:44.324" rpa="false" schemaversion="2">
+<suite id="s1" name="Test" source="C:\Users\Kunal Talwar\PycharmProjects\pythonProject2\Test.robot">
+<test id="s1-t1" name="LoginTest">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>chrome executable_path=r"C:\Users\Kunal Talwar\eclipse-workspace\libs\chromedriver_win32\chromedriver.exe"</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20211220 01:29:44.979" level="FAIL">Keyword 'SeleniumLibrary.Create Webdriver' expected 1 to 3 non-named arguments, got 0.</msg>
+<status status="FAIL" starttime="20211220 01:29:44.979" endtime="20211220 01:29:44.979"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20211220 01:29:44.979" endtime="20211220 01:29:44.979"/>
+</kw>
+<kw name="logintoapplication">
+<status status="NOT RUN" starttime="20211220 01:29:44.979" endtime="20211220 01:29:44.979"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20211220 01:29:44.979" endtime="20211220 01:29:44.979"/>
+</kw>
+<status status="FAIL" starttime="20211220 01:29:44.979" endtime="20211220 01:29:44.979">Keyword 'SeleniumLibrary.Create Webdriver' expected 1 to 3 non-named arguments, got 0.</status>
+</test>
+<status status="FAIL" starttime="20211220 01:29:44.324" endtime="20211220 01:29:44.979"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
