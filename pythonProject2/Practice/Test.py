@@ -234,3 +234,5 @@ time.sleep(2)
 
 # Step 5 : Close the driver object
 driver.quit()
+
+print("Done...")
