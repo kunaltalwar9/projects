@@ -757,3 +757,5 @@ appium_service = AppiumService()
 
 # Step 5 : To Call stop method by using Appium Service class object
 appium_service.stop()
+
+print("Done...")
