@@ -5,7 +5,7 @@ import time
 class SwitchToWindow():
 
     def test(self):
-        baseUrl = "https://letskodeit.teachable.com/pages/practice"
+        baseUrl = "https://www.letskodeit.com/practice"
         driver = webdriver.Firefox()
         driver.maximize_window()
         driver.get(baseUrl)

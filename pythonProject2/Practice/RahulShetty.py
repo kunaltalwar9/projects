@@ -32,6 +32,8 @@ assert name == "India"
 #for handling javascripts pop up alerts
 ##alert.accept()
 #alert.dismiss()
+# driver.quit()
+
 
 '''
 driver.get("https://rahulshettyacademy.com/seleniumPractise/")

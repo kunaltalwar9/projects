@@ -1,5 +1,6 @@
 import pdb
 import pprint
+import random
 from array import *
 
 '''
@@ -280,7 +281,17 @@ for i in range(num):
     b = c
     print(c)
 '''
-
+'''
+f = 0
+g = 1
+h = []
+for i in range(7):
+    h.append(f)
+    h.append(g)
+    print(h)
+    f = f + g
+    g = f + g
+'''
 # -----------------------------------------------------
 # shit
 '''
@@ -748,6 +759,162 @@ reverse_Array(in_array)
 
 '''
 
+'''
+import random
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+print("Welcome to the PyPassword Generator!")
+nr_letters= int(input("How many letters would you like in your password?\n")) 
+nr_symbols = int(input(f"How many symbols would you like?\n"))
+nr_numbers = int(input(f"How many numbers would you like?\n"))
+
+password = ''
+
+for i in range(nr_letters+nr_symbols+nr_numbers):
+    r = random.randint(0,2)
+    if r == 0:
+        password += random.choice(letters)
+    elif r ==1:
+        password += random.choice(numbers)
+    else:
+        password +=random.choice(symbols)
+print(password)
+
+
+'''
+'''
+
+my_dict = {'a':1,'b':2,'c':3}
+
+def get_key(my_dict, value):
+    for key, val in my_dict.items():
+        if val == value:
+            print(key)
+            return key
+    return None
+
+get_key(my_dict,2)
+
+for key in my_dict:
+    print(key)
+    print(my_dict[key])
+
+
+print(my_dict[0])
+
+
+'''
+
+# Random Pratice codes Hacker Earth
+
+'''
+# Hacker Earth Zoos
+
+name = input()
+z = o = 0
+for i in name:
+    if i.lower()=='z':
+        z += 1
+        # print(z)
+    elif i.lower() == 'o':
+        o +=1
+if 2*z == o:
+    print("Yes")
+else:
+    print("No")
+
+'''
+
+'''
+
+# Hacker Earth Hidden Treasure
+def solve(n, nums):
+    l = []
+    for i in nums:
+        i = str(i)
+        first_digit = int(i[0])
+        second_digit = int(i[1])
+        sum_of_digits = first_digit+second_digit
+        # print(sum_of_digits)
+        l.append(sum_of_digits)
+    print(l)
+
+    count = 0
+    frequency = {}
+    for i in l:
+        frequency[i] = l.count(i)
+        # print(f" {l.count(i)} pairs have sum of {i} ")
+    print("#### FREQUENCY ####")
+    print(frequency)
+    for key, val in frequency.items():
+        # print(f"{key} is repeated {val} times")
+        if val == 2:
+            # print(f"{key} is repeated {val} times")
+            count += 1
+    return count
+
+n = int(input())
+nums = list(map(int, input().split()))
+out_ = solve(n, nums)
+print(out_)
+
+# 51 71 13 61 33 22 45 72 41 35 30 11
+'''
+# Number Guessing Game
+
+game_number = random.randint(1,100)
+# print(game_number)
+def hard():
+    count = 5
+    while count > 0:
+        your_number = int(input("Make a guess: "))
+        if your_number == game_number:
+            print(f"You Won, Correct number was {game_number}")
+            break
+        elif your_number > game_number:
+            print("Too High")
+            count -= 1
+        elif your_number < game_number:
+            print("Too Low")
+            count -= 1
+    if count == 0:
+        print("You Lose")
+        print(f"Correct Number was {game_number}")
+
+def easy():
+    count = 10
+    while count > 0:
+        your_number = int(input("Make a guess: "))
+        if your_number == game_number:
+            print(f"You Won, Correct number was {game_number}")
+            break
+        elif your_number > game_number:
+            print("Too High")
+            count -= 1
+        elif your_number < game_number:
+            print("Too Low")
+            count -= 1
+    if count == 0:
+        print(f"Correct Number was {game_number}")
+
+
+level = input("Choose level: ")
+
+if level.lower() == 'hard':
+    hard()
+elif level.lower() == 'easy':
+    easy()
+
+
+
+
+
+
+
+
+'''
 from appium.webdriver.appium_service import AppiumService
 
 # Step 2 : Create object for Appium Service class
@@ -759,3 +926,5 @@ appium_service = AppiumService()
 appium_service.stop()
 
 print("Done...")
+
+'''
